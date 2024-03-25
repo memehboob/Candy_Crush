@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let colorBeingReplaced;
     let colorIdBeingDragged;
     let colorIdBeingReplaced;
-
+// adding some comments 
 
   squares.forEach( square => square.addEventListener('dragstart',dragStart))
   squares.forEach(square => square.addEventListener('dragend',dragEnd))
